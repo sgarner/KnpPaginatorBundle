@@ -2,7 +2,7 @@
 
 namespace Knp\Bundle\PaginatorBundle\Paginator;
 
-use Zend\Paginator\Adapter as ZendPaginatorAdapter;
+use Zend\Paginator\Adapter\AdapterInterface as ZendPaginatorAdapter;
 
 /**
  * Doctrine Paginator Adapter interface
